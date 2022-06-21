@@ -22,7 +22,9 @@ https://github.com/dedis/suri.epfl.ch/tree/master/layouts/partials
 4) Update `past.html` to the 2020 version:
 https://github.com/dedis/suri.epfl.ch/blob/master/layouts/partials/past.html
 
-5) Activate the new config file from step 1 by changing the following line to `{{ $config := $.Site.Data.suri2020 }}`
+5) Copy `layouts/index.html` to `layouts/singles/2019.html`
+
+6) Activate the new config file from step 1 by changing the following line to `{{ $config := $.Site.Data.suri2020 }}`
 https://github.com/dedis/suri.epfl.ch/blob/master/layouts/index.html#L4
 
 To make the website available online, you can use `make build && make deploy` after you've uploaded your ssh public key to dedis.ch and added the following entry to your .ssh/config file:

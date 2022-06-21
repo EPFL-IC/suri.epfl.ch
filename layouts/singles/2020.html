@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 
-    {{ $config := $.Site.Data.suri2022 }}
+    {{ $config := $.Site.Data.suri2020 }}
 
     {{ $year := $config.year }}
     {{ $dates := $config.dates }}
     {{ $talks := $config.talks }}
-    {{ $speakers := $config.speakers }}
+    {{ $security:= $config.security }}
     {{ $organizers := $config.organizers }}
 
     {{ $.Scratch.Add "year" $year }}
@@ -75,7 +75,7 @@
             <div id="main">
 
                 <!-- Intro -->
-                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/rochersdenaye.jpg'); color: white">
+                    <section id="top" class="one dark cover" style="background-image: url('../img/covers/lausanne-cathedral.jpg'); color: white">
                         <div class="container" class="dark">
                           <br>
                           <br>
@@ -92,73 +92,73 @@
                             <header>
                                 <h4>EPFL School of Computer and Communication Sciences</h4>
                                 <h2>{{ .Site.Title }} {{ $year }}</h2>
-                                <h4>{{ $config.subtitle }}</h4>
-
+                                <h4>on Systems, Security, and Privacy</h4>
+                            {{ if $config.coronavirus }}
+                            <p><span style="text-decoration: line-through;">{{ $dates }}</span> (Cancelled)</p>
+                            {{ else }}
                                 <p>{{ $dates }}</p>
+                            {{ end }}
                             </header>
+                            {{ if $config.coronavirus }}
+                            <header class="warning">
+                              <h2><strong>SuRI {{ $year }} Cancelled</strong></h2>
 
+                              We are sad to report
+                              that, due to the
+                              spread of
+                              coronavirus and the
+                              accompanying travel
+                              restrictions, we
+                              must cancel SuRI
+                              2020. Stay healthy and
+                              we will hope to see you at
+                              SuRI next year.
+                            </header>
+                            
+                            {{ end }}
                             <header>
                                 <h2>Overview</h2>
                             </header>
                             <main>
                                 <p>
-                                    The goal of the workshop is to bring together experts in various areas of mathematics and computer science related to the theory of machine learning, and to learn about recent and exciting developments in a relaxed atmosphere. The workshop will take place on <a href="http://ic.epfl.ch/">EPFL</a> campus, with social activities in the Lake Geneva area. 
-                                </p>
+                                    The <strong>Summer Research Institute (SuRI)</strong> is an annual event that takes place at the 
+                                    <a href="http://ic.epfl.ch/">School of Computer and Communication Sciences</a> of the <a href="https://epfl.ch">École polytechnique fédérale de Lausanne</a>, Switzerland.
+                                    The workshop brings together researchers and experts from academia and industry for research talks and informal discussions.
 
+                                </p>
                                 <p>
                                 The event is <strong>open to everyone</strong> and attendance is <strong>free of charge</strong>.<br>
                                 In case you plan to attend SuRI {{ $year }}, please register to facilitate the event's organization.
-                                The registration deadline is June 15th 2022.
                                 </p>
                             </main>
                             <footer>
-                                <a href="https://forms.gle/wiH5iyGzCPpFPpJD6" class="button">Register now</a>
-                            </footer>   
+                                <a href="#" class="button">Registration not yet open</a>
+                            </footer>
                         </div>
                     </section>
 
-                <!-- Preview from 2020 -->
-
-                    <section id="workshop-preview" class="two">
+                <!-- Registration -->
+                <!--
+                    <section id="registration" class="three">
                         <div class="container">
                             <header>
-                                <h2>Workshop preview (from 2020)</h2>
+                                <h2>Registration</h2>
                             </header>
-                            <p>
-                                The workshop was postponed from its original date in Summer 2020 
-                                due to the COVID-19 situation, but is now scheduled for Summer 2022. 
-                                A short Zoom preview of the workshop was held in 2020, featuring 
-                                several open problem/research presentations:
-                            </p>
+                            {{ if eq .Site.Params.registration "true" }}
                             <main>
-                                <ul type=circle>
-                                    <li>
-                                        Lower Bounds for Sampling (Peter Bartlett; <a href="https://suri.epfl.ch/slides/2020/Bartlett-talk-handout.pdf">slides</a>)
-                                    </li>
-                                </ul>
-                                <ul type=circle>
-                                    <li>
-                                        Black-box complexity of optimization in low dimensions (Sebastien Bubeck; <a href="https://suri.epfl.ch/slides/2020/BubeckJuly20.png">slides</a>)
-                                    </li>
-                                </ul>
-                                <ul type=circle>
-                                    <li>
-                                        Learning neural networks  (Adam Klivans)
-                                    </li>
-                                </ul>
-                                <ul type=circle>
-                                    <li>
-                                        Cutting Convex Sets with Margin (Shay Moran; <a href="https://suri.epfl.ch/slides/2020/CuttingConvexSets.pdf">slides</a>)
-                                    </li>
-                                </ul>
-                                <ul type=circle>
-                                    <li>
-                                        From Nesterov's Estimate Sequence to Riemannian Acceleration (Survit Sra; <a href="https://suri.epfl.ch/slides/2020/sra_epfl_2020.pdf">slides</a>)
-                                    </li>
-                                </ul>
-                            </main>                         
+                                <p>In case you plan to attend SuRI 2017, please click the button below and fill out the form.</p>
+                            </main>
+                            <footer>
+                                <a href="https://goo.gl/forms/UQgKibHjV7kwPtKY2" class="button">Register</a>
+                            </footer>
+                            {{ else }}
+                            <main>
+                                <p>Closed.</p>
+                            </main>
+                            {{ end }}
                         </div>
                     </section>
+                -->
 
                 <!-- Program -->
                     <section id="program" class="four">
@@ -192,7 +192,7 @@
                                 <h2>Speakers</h2>
                             </header>
                             <main>
-                                {{ $.Scratch.Set "path" $speakers }}
+                                {{ $.Scratch.Set "path" $security }}
                                 {{ partial "people.html" . }}
                             </main>
                         </div>

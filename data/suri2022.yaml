@@ -1,0 +1,274 @@
+year: "2022"
+dates: "June 29th to July 1st 2022"
+program: "true"
+abstracts: "false"
+coronavirus: false
+subtitle: "Learning: Optimization and Stochastics"
+
+talks:
+
+    - date: "29.06.2022"
+      entries: 
+
+        - time: "09:30 – 10:00" 
+          title:
+          speaker: "Nati Srebo" 
+          slides: 
+          video:
+
+        - time: "10:10 – 10:50" 
+          title:
+          speaker: "Sebastien Bubeck"
+          slides: 
+          video:
+
+        - time: "10:50 – 11:20" 
+          title: "Break"
+          speaker:
+          slides: 
+          video:
+
+        - time: "11:50 – 12:30" 
+          title:
+          speaker: "Pravesh Kothari"
+          slides: 
+          video:
+
+        - time: "14:00 – " 
+          title: "Social activity (speakers only)"
+          speaker:
+          slides: 
+          video:
+
+    - date: "30.06.22"
+      entries: 
+
+        - time: "09:00 - 09:40" 
+          title:
+          speaker: "Surbhi Goel"
+          slides: 
+          video:
+        
+        - time: "09:40 - 10:20"
+          title:
+          speaker: "Shay Moran"
+          slides: 
+          video:
+
+        - time: "10:20 - 10:50"
+          title: "Break"
+          speaker:
+          slides: 
+          video:
+
+        - time: "10:50 - 11:30"
+          title:
+          speaker: "John Duchi"
+          slides: 
+          video:
+
+        - time: "11:30 - 12:10"
+          title:
+          speaker: "Adam Klivans"
+          slides: 
+          video:
+
+        - time: "12:10 - 14:00"
+          title: "Lunch"
+          speaker: 
+          slides: 
+          video:
+
+        - time: "14:00 - 14:40" 
+          title:
+          speaker: "Yin Tat Lee"
+          slides: 
+          video:
+
+        - time: "14:40 - 15:20"
+          title:
+          speaker: "Gerard Ben Arous"
+          slides: 
+          video:
+
+        - time: "15:20 - 15:50"
+          title: "Break"
+          speaker:
+          slides: 
+          video:
+
+        - time: "15:50 - 16:30"
+          title: "TBD"
+          speaker:
+          slides: 
+          video:
+
+        - time: "18:30 -"
+          title: "Social activity (speakers only)"
+          speaker:
+          slides: 
+          video:
+
+    - date: "01.07.22"
+      entries: 
+
+        - time: "09:00 - 09:40" 
+          title:
+          speaker: "Praneeth Netrapalli"
+          slides: 
+          video:
+        
+        - time: "09:40 - 10:20"
+          title:
+          speaker: "Vianney Perchet"
+          slides: 
+          video:
+
+        - time: "10:20 - 10:50"
+          title: "Break"
+          speaker:
+          slides: 
+          video:
+
+        - time: "10:50 - 11:30"
+          title:
+          speaker: "Ashia Wilson"
+          slides: 
+          video:
+
+        - time: "11:30 - 12:10"
+          title:
+          speaker: "Piotr Indyk"
+          slides: 
+          video:
+
+        - time: "12:10 - 14:00"
+          title: "Lunch"
+          speaker: 
+          slides: 
+          video:
+
+        - time: "14:00 - 14:40" 
+          title:
+          speaker: "James Lee"
+          slides: 
+          video:
+
+        - time: "14:40 - 15:20"
+          title:
+          speaker: "Moritz Hardt"
+          slides: 
+          video:
+
+        - time: "15:20 - 15:50"
+          title: "Break"
+          speaker:
+          slides: 
+          video:
+
+        - time: "15:50 - 16:30"
+          title: "TBD"
+          speaker:
+          slides: 
+          video:
+
+        - time: "17:00"
+          title: "Closing session"
+          speaker:
+          slides: 
+          video:
+
+speakers:
+
+    - name: "Gerard Ben Arous"
+      affil: "New York University"
+      img: "speakers/gerard-ben-arouns.jpg"
+      site: "https://cims.nyu.edu/~benarous/"
+
+    - name: "Sebastien Bubeck"
+      affil: "Microsoft Research Redmond"
+      img: "speakers/sebastien-bubeck.jpg"
+      site: "http://sbubeck.com/"
+
+    - name: "John Duchi"
+      affil: "Stanford University"
+      img: "speakers/john-duchi.jpg"
+      site: "https://web.stanford.edu/~jduchi/"
+
+    - name: "Surbhi Goel"
+      affil: "Microsoft Research"
+      img: "speakers/surbhi-goel.jpg"
+      site: "https://www.surbhigoel.com/"
+
+    - name: "Moritz Hardt"
+      affil: "MPI"
+      img: "speakers/moritz-hardt.jpg"
+      site: "https://mrtz.org/"
+
+    - name: "Piotr Indyk"
+      affil: "MIT"
+      img: "speakers/piotr-indyk.jpg"
+      site: "https://people.csail.mit.edu/indyk/"
+
+    - name: "Adam Klivans"
+      affil: "UT Austin"
+      img: "speakers/adam-klivans.jpg"
+      site: "https://www.cs.utexas.edu/~klivans/"
+
+    - name: "Pravesh Kothari"
+      affil: "CMU"
+      img: "speakers/Pravesh-Kothari.jpg"
+      site: "http://www.cs.cmu.edu/~praveshk/"
+
+    - name: "James Lee"
+      affil: "University of Washington"
+      img: "speakers/james-lee.jpg"
+      site: "https://homes.cs.washington.edu/~jrl/"
+
+    - name: "Yin Tat Lee"
+      affil: "University of Washington"
+      img: "speakers/yin-tat-lee.jpg"
+      site: "https://yintat.com/"
+
+    - name: "Shay Moran"
+      affil: "Technion"
+      img: "speakers/shay-moran.jpg"
+      site: "https://www.cs.technion.ac.il/~shaymrn/"
+
+    - name: "Praneeth Netrapalli"
+      affil: "Google Research India"
+      img: "speakers/Praneeth-Netrapalli.jpg"
+      site: "https://praneethnetrapalli.org/"
+
+    - name: "Vianney Perchet"
+      affil: "CREST, ENSAE"
+      img: "speakers/vianney-perchet.png"
+      site: "https://vianney.ai/"
+
+    - name: "Nati Srebro"
+      affil: "TTIC"
+      img: "speakers/nati-srebo.jpg"
+      site: "https://nati.ttic.edu/"
+
+    - name: "Ashia Wilson"
+      affil: "MIT"
+      img: "speakers/Ashia-Williams.jpg"
+      site: "https://engineering.mit.edu/faculty/ashia-wilson/"
+
+organizers:
+
+    - name: "Emmanuel Abbe"
+      site: https://www.epfl.ch/labs/mds/
+      img: "organizers/emmanuel-abbe.jpg"
+
+    - name: "Nicolas Flammarion "
+      site: "https://www.epfl.ch/labs/tml/"
+      img: "organizers/nicolas-flammarion.jpg"
+
+    - name: "Martin Jaggi"
+      site: "https://www.epfl.ch/labs/mlo/"
+      img: "organizers/martin-jaggi.jpg"
+
+    - name: "Michael Kapralov"
+      site: "https://theory.epfl.ch/kapralov/"
+      img: "organizers/michael-kapralov.jpg"
