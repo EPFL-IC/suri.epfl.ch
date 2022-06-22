@@ -1,5 +1,5 @@
-DEST=epfl-suri:/var/www/html/
-DRAFT=epfl-dedis:~/www/
+# Destination if mounted on a Mac
+DEST=/Volumes/dav-suri.epfl.ch/htdocs
 SRC=public/
 
 server:
@@ -8,14 +8,8 @@ server:
 build:
 	hugo
 
-deploy-dedis:
-	rsync -Paivz --delete $(SRC) suri@dedis.ch:www
-
-deploy:
+deploy: build
 	rsync -avzO --delete $(SRC) $(DEST)
-
-draft:
-	rsync -Paivz --delete $(SRC) $(DRAFT)
 
 archive:
 	./archive.sh
