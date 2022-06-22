@@ -1,7 +1,7 @@
 year: "2022"
 dates: "June 29th to July 1st 2022"
 program: "true"
-abstracts: "false"
+abstracts: "true"
 coronavirus: false
 subtitle: "Learning: Optimization and Stochastics"
 
@@ -17,7 +17,7 @@ talks:
           video:
 
         - time: "10:10 – 10:50" 
-          title:
+          title: "Unveiling Transformers with LEGO"
           speaker: "Sebastien Bubeck"
           slides: 
           video:
@@ -50,7 +50,7 @@ talks:
           video:
         
         - time: "09:40 - 10:20"
-          title:
+          title: "Extending Generalization Theory Towards Addressing Modern Challenges in Machine Learning"
           speaker: "Shay Moran"
           slides: 
           video:
@@ -62,13 +62,13 @@ talks:
           video:
 
         - time: "10:50 - 11:30"
-          title:
+          title: "How many labelers do you have? Some perspective on 'gold standard' labels"
           speaker: "John Duchi"
           slides: 
           video:
 
         - time: "11:30 - 12:10"
-          title:
+          title: "In Search of New Algorithms for Training Neural Networks"
           speaker: "Adam Klivans"
           slides: 
           video:
@@ -80,7 +80,7 @@ talks:
           video:
 
         - time: "14:00 - 14:40" 
-          title:
+          title: "From Robustness to Efficiency"
           speaker: "Yin Tat Lee"
           slides: 
           video:
@@ -113,13 +113,13 @@ talks:
       entries: 
 
         - time: "09:00 - 09:40" 
-          title:
+          title: "Reverse Experience Replay: An Efficient Way to Learn with Dependent Data."
           speaker: "Praneeth Netrapalli"
           slides: 
           video:
         
         - time: "09:40 - 10:20"
-          title:
+          title: "An algorithmic solution to the Blotto game using multi-marginal couplings"
           speaker: "Vianney Perchet"
           slides: 
           video:
