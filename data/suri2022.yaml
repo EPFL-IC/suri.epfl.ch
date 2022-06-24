@@ -86,7 +86,7 @@ talks:
           video:
 
         - time: "14:40 - 15:20"
-          title:
+          title: "Stochastic Gradient Descent in high dimensions:  Effective dynamics and critical scaling."
           speaker: "Gerard Ben Arous"
           slides: 
           video:
