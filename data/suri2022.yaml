@@ -137,7 +137,7 @@ talks:
           video:
 
         - time: "11:30 - 12:10"
-          title:
+          title: "Learning-Based Algorithms for Sampling and Streaming"
           speaker: "Piotr Indyk"
           slides: 
           video:
