@@ -29,7 +29,7 @@ talks:
           video:
 
         - time: "11:50 – 12:30" 
-          title:
+          title: "Efficient High-Dimensional Robust Statistics via Algorithmic Certificates of (Anti)-Concentration"
           speaker: "Pravesh Kothari"
           slides: 
           video:
@@ -155,7 +155,7 @@ talks:
           video:
 
         - time: "14:40 - 15:20"
-          title:
+          title: "The invisible hand of prediction"
           speaker: "Moritz Hardt"
           slides: 
           video:
