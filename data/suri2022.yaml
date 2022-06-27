@@ -11,7 +11,7 @@ talks:
       entries: 
 
         - time: "09:30 – 10:00" 
-          title:
+          title: "Learning by Overfitting: A Statistical Learning view of Benign Overfitting"
           speaker: "Nati Srebo" 
           slides: 
           video:
@@ -44,7 +44,7 @@ talks:
       entries: 
 
         - time: "09:00 - 09:40" 
-          title:
+          title: "Title: The Hidden Progress Behind Loss Curves"
           speaker: "Surbhi Goel"
           slides: 
           video:
