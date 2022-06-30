@@ -44,8 +44,8 @@ talks:
       entries: 
 
         - time: "09:00 - 09:40" 
-          title: "Title: The Hidden Progress Behind Loss Curves"
-          speaker: "Surbhi Goel"
+          title: "Multilevel Optimization for Inverse Problems"
+          speaker: "Ashia Wilson"
           slides: 
           video:
         
@@ -131,8 +131,8 @@ talks:
           video:
 
         - time: "10:50 - 11:30"
-          title:
-          speaker: "Ashia Wilson"
+          title: "Title: The Hidden Progress Behind Loss Curves"
+          speaker: "Surbhi Goel"
           slides: 
           video:
 
