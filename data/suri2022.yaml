@@ -273,6 +273,26 @@ speakers:
       img: "speakers/Ashia-Williams.jpg"
       site: "https://engineering.mit.edu/faculty/ashia-wilson/"
 
+    - name: "Etienne Boursier"
+      affil: "EPFL"
+      img: "speakers/Etienne-Boursier.jpg"
+      site: "https://eboursier.github.io/"
+
+    - name: "Aryo Lotfi"
+      affil: "EPFL"
+      img: "user.png"
+      site: "https://people.epfl.ch/aryo.lotfi?lang=en"
+
+    - name: "Theodor Misiakiewicz"
+      affil: "Stanford"
+      img: "speakers/Theodor-Misiakiewicz.jpg"
+      site: "https://misiakie.github.io/"
+
+    - name: "Hugo Cui"
+      affil: "EPFL"
+      img: "speakers/Hugo-Cui.jpg"
+      site: "https://people.epfl.ch/hugo.cui/?lang=en"
+
 organizers:
 
     - name: "Emmanuel Abbe"
