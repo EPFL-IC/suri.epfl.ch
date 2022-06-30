@@ -97,9 +97,27 @@ talks:
           slides: 
           video:
 
-        - time: "15:50 - 16:30"
-          title: "TBD"
-          speaker:
+        - time: "15:50 - 16:00"
+          title: "Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs"
+          speaker: "Etienne Boursier"
+          slides: 
+          video:
+
+        - time: "16:00 - 16:10"
+          title: "Learning to Reason with Neural Networks: Generalization, Unseen Data and Boolean Measures"
+          speaker: "Aryo Lotfi"
+          slides: 
+          video:
+
+        - time: "16:10 - 16:20"
+          title: "Learning sparse functions in the mean-field regime"
+          speaker: "Theodor Misiakiewicz"
+          slides: 
+          video:
+
+        - time: "16:20 - 16:30"
+          title: "Error rates for kernel methods under source and capacity conditions"
+          speaker: "Hugo Cui"
           slides: 
           video:
 
@@ -149,8 +167,8 @@ talks:
           video:
 
         - time: "14:00 - 14:40" 
-          title:
-          speaker: "James Lee"
+          title: "canceled"
+          speaker: ""
           slides: 
           video:
 
