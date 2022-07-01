@@ -167,30 +167,24 @@ talks:
           video:
 
         - time: "14:00 - 14:40" 
-          title: "canceled"
-          speaker: ""
-          slides: 
-          video:
-
-        - time: "14:40 - 15:20"
           title: "The invisible hand of prediction"
           speaker: "Moritz Hardt"
           slides: 
           video:
 
-        - time: "15:20 - 15:50"
-          title: "Break"
+        - time: "14:40 - 15:00"
+          title: "Lucky Vote"
           speaker:
           slides: 
           video:
 
-        - time: "15:50 - 16:30"
-          title: "TBD"
+        - time: "15:00 - 16:00"
+          title: "Lucky Talk"
           speaker:
           slides: 
           video:
 
-        - time: "17:00"
+        - time: "16:00"
           title: "Closing session"
           speaker:
           slides: 
