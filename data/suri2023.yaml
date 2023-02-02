@@ -1,0 +1,80 @@
+year: "2023"
+dates: "July 6th – July 7th 2023"
+program: "false"
+abstracts: "false"
+coronavirus: "false"
+subtitle: "on Systems, Security, and Privacy"
+
+talks:
+
+speakers:
+
+    - name: "Alina Oprea"
+      affil: "Northeastern"
+      img: "user.png"
+
+    - name: "Sebastian Angel"
+      affil: "U Penn & Microsoft Research"
+      img: "user.png"
+
+    - name: "Xiaoqian Jiang"
+      affil: "UT Health, Houston"
+      img: "user.png"
+
+    - name: "Sarah Meiklejohn"
+      affil: "UCL & Google"
+      img: "user.png"
+
+    - name: "Alessandra Gorla"
+      affil: "IMDEA Software"
+      img: "user.png"
+
+    - name: "Minlan Yu"
+      affil: "Harvard"
+      img: "user.png"
+
+    - name: "Xi Wang"
+      affil: "UW"
+      img: "user.png"
+
+    - name: "Keith Winstein"
+      affil: "Stanford"
+      img: "user.png"
+
+    - name: "Henry Corrigan-Gibbs"
+      affil: "MIT"
+      img: "user.png"
+
+    - name: "Michelle Mazurek"
+      affil: "U of Maryland"
+      img: "user.png"
+
+    - name: "Florian Kerschbaum"
+      affil: "U of Waterloo/ Canada"
+      img: "user.png"
+
+organizers:
+
+    - name: "Jean-Pierre Hubaux"
+      site: "https://people.epfl.ch/jean-pierre.hubaux"
+      img: "organizers/jean-pierre-hubaux.jpg"
+
+    - name: "Bryan Ford"
+      site: "https://people.epfl.ch/bryan.ford"
+      img: "organizers/bryan-ford.jpg"
+
+    - name: "Carmela Troncoso"
+      site: "https://people.epfl.ch/carmela.troncoso"
+      img: "organizers/carmela-troncoso.jpg"
+
+    - name: "Mathias Payer"
+      site: "https://people.epfl.ch/mathias.payer"
+      img: "organizers/mathias-payer.jpg"
+
+    - name: "Alessandro Chiesa"
+      site: "https://people.epfl.ch/alessandro.chiesa"
+      img: "user.png"
+
+    - name: "Sandra Hünsch"
+      site: "https://people.epfl.ch/sandra.hunsch"
+      img: "user.png"

@@ -102,7 +102,7 @@
                             </header>
                             <main>
                                 <p>
-                                    The <strong>Research Institute (SuRI)</strong> is an annual event that takes place at the <a href="https://www.epfl.ch/schools/ic/">School of Computer and Communication Sciences</a> of the <a href="https://www.epfl.ch/fr/">École polytechnique fédérale de Lausanne</a>, Switzerland. The workshop brings together researchers and experts from academia and industry for research talks and informal discussions.
+                                    The goal of the workshop is to bring together experts in various areas of mathematics and computer science related to the theory of machine learning, and to learn about recent and exciting developments in a relaxed atmosphere. The workshop will take place on <a href="http://ic.epfl.ch/">EPFL</a> campus, with social activities in the Lake Geneva area. 
                                 </p>
 
                                 <p>
@@ -112,10 +112,51 @@
                                 </p>
                             </main>
                             <footer>
-                                <a href="" class="button" id="disable">Registration not yet open</a>
-                                <a href="" class="button">Phd student fellowship application</a>
-                                <p>This year we are offering 20 fellowships to help students cover the expenses to travel to Switzerland. You must apply by February 15, 2023.</p>
+                                <a href="https://forms.gle/wiH5iyGzCPpFPpJD6" class="button">Register now</a>
                             </footer>   
+                        </div>
+                    </section>
+
+                <!-- Preview from 2020 -->
+
+                    <section id="workshop-preview" class="two">
+                        <div class="container">
+                            <header>
+                                <h2>Workshop preview (from 2020)</h2>
+                            </header>
+                            <p>
+                                The workshop was postponed from its original date in Summer 2020 
+                                due to the COVID-19 situation, but is now scheduled for Summer 2022. 
+                                A short Zoom preview of the workshop was held in 2020, featuring 
+                                several open problem/research presentations:
+                            </p>
+                            <main>
+                                <ul type=circle>
+                                    <li>
+                                        Lower Bounds for Sampling (Peter Bartlett - <a href="{{ .Site.BaseURL }}slides/2020/Bartlett-talk-handout.pdf">slides</a>)
+                                    </li>
+                                </ul>
+                                <ul type=circle>
+                                    <li>
+                                        Black-box complexity of optimization in low dimensions (Sebastien Bubeck - <a href="{{ .Site.BaseURL }}slides/2020/BubeckJuly20.png">slides</a>)
+                                    </li>
+                                </ul>
+                                <ul type=circle>
+                                    <li>
+                                        Learning neural networks  (Adam Klivans)
+                                    </li>
+                                </ul>
+                                <ul type=circle>
+                                    <li>
+                                        Cutting Convex Sets with Margin (Shay Moran - <a href="{{ .Site.BaseURL }}slides/2020/CuttingConvexSets.pdf">slides</a>)
+                                    </li>
+                                </ul>
+                                <ul type=circle>
+                                    <li>
+                                        From Nesterov's Estimate Sequence to Riemannian Acceleration (Survit Sra - <a href="{{ .Site.BaseURL }}slides/2020/sra_epfl_2020.pdf">slides</a>)
+                                    </li>
+                                </ul>
+                            </main>                         
                         </div>
                     </section>
 
@@ -126,6 +167,8 @@
                                 <h2>Program (Overview)</h2>
                             </header>
                             <main>
+                                {{ $.Scratch.Add "path" $talks }}
+                                
                                 {{ partial "talks.html" . }}
                             </main>
                         </div>

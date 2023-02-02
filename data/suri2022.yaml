@@ -2,7 +2,7 @@ year: "2022"
 dates: "June 29th to July 1st 2022"
 program: "true"
 abstracts: "true"
-coronavirus: false
+coronavirus: "false"
 subtitle: "Learning: Optimization and Stochastics"
 
 talks:
