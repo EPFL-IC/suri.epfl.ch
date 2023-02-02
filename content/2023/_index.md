@@ -1,6 +1,6 @@
 +++
-title = "EPFL Summer Research Institute 2020"
-description = "EPFL Summer Research Institute 2020"
+title = "EPFL Summer Research Institute 2023"
+description = "EPFL Summer Research Institute 2023"
 type = "singles"
-layout = "2020"
+layout = "2023"
 +++
